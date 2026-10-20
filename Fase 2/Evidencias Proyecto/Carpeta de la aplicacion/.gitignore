@@ -1,0 +1,25 @@
+# Python / Django
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/db.sqlite3
+backend/.env
+
+# Frontend / React Vite
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# Entornos y sistema
+.vscode/
+.DS_Store
+# Deployment secrets and generated assets
+**/__pycache__/
+backend/staticfiles/
+backend/media/
+.env
+.env.*
+**/.env
+**/.env.*
+!**/.env.example
